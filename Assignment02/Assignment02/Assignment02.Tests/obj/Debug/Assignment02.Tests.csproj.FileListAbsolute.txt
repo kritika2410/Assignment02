@@ -1,0 +1,17 @@
+C:\Users\hassa\source\repos\Assignment02\Assignment02.Tests\bin\Debug\Microsoft.VisualStudio.TestPlatform.MSTest.TestAdapter.dll
+C:\Users\hassa\source\repos\Assignment02\Assignment02.Tests\bin\Debug\Microsoft.VisualStudio.TestPlatform.MSTestAdapter.PlatformServices.Interface.dll
+C:\Users\hassa\source\repos\Assignment02\Assignment02.Tests\bin\Debug\Microsoft.VisualStudio.TestPlatform.MSTestAdapter.PlatformServices.dll
+C:\Users\hassa\source\repos\Assignment02\Assignment02.Tests\bin\Debug\Assignment02.Tests.dll
+C:\Users\hassa\source\repos\Assignment02\Assignment02.Tests\bin\Debug\Assignment02.Tests.pdb
+C:\Users\hassa\source\repos\Assignment02\Assignment02.Tests\bin\Debug\Assignment02.exe
+C:\Users\hassa\source\repos\Assignment02\Assignment02.Tests\bin\Debug\Microsoft.VisualStudio.TestPlatform.TestFramework.dll
+C:\Users\hassa\source\repos\Assignment02\Assignment02.Tests\bin\Debug\Microsoft.VisualStudio.TestPlatform.TestFramework.Extensions.dll
+C:\Users\hassa\source\repos\Assignment02\Assignment02.Tests\bin\Debug\Assignment02.pdb
+C:\Users\hassa\source\repos\Assignment02\Assignment02.Tests\bin\Debug\Assignment02.exe.config
+C:\Users\hassa\source\repos\Assignment02\Assignment02.Tests\bin\Debug\Microsoft.VisualStudio.TestPlatform.TestFramework.xml
+C:\Users\hassa\source\repos\Assignment02\Assignment02.Tests\bin\Debug\Microsoft.VisualStudio.TestPlatform.TestFramework.Extensions.xml
+C:\Users\hassa\source\repos\Assignment02\Assignment02.Tests\obj\Debug\Assignment02.Tests.csproj.AssemblyReference.cache
+C:\Users\hassa\source\repos\Assignment02\Assignment02.Tests\obj\Debug\Assignment02.Tests.csproj.CoreCompileInputs.cache
+C:\Users\hassa\source\repos\Assignment02\Assignment02.Tests\obj\Debug\Assignment02.Tests.csproj.CopyComplete
+C:\Users\hassa\source\repos\Assignment02\Assignment02.Tests\obj\Debug\Assignment02.Tests.dll
+C:\Users\hassa\source\repos\Assignment02\Assignment02.Tests\obj\Debug\Assignment02.Tests.pdb
