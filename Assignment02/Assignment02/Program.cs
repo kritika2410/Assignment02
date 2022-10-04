@@ -13,14 +13,14 @@ namespace Assignment02
             
             Console.Write("Enter length of rectangle : ");
             int length = 0;
-            while (!int.TryParse(Console.ReadLine(), out length) || (length < 0) )
+            while (!int.TryParse(Console.ReadLine(), out length) || (length < 1) )
             {
                 Console.Write("Please Enter a valid length of rectangle : "); 
             }
             
             Console.Write("Enter width of rectangle : ");
             int width = 0;
-            while (!int.TryParse(Console.ReadLine(), out width) || (width < 0))
+            while (!int.TryParse(Console.ReadLine(), out width) || (width < 1))
             {
                 Console.Write("Please Enter a valid width of rectangle : ");
             }

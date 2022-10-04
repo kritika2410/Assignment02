@@ -6,26 +6,35 @@ namespace Assignment02.Tests
     [TestClass]
     public class RectangleTest
     {
-        //Rec
+        
 
         [TestMethod]
-        public void TestGetCurrentLength1()
+        public void TestGetCurrentLength_Returns1()
         {
+            //Arrange
+            int ans;
             Rectangle rectangle = new Rectangle();
 
-            Assert.AreEqual(rectangle.GetCurrentLength(), 1);
+            //Act
+            ans = rectangle.GetCurrentLength();
+
+            //Assert
+            Assert.AreEqual(ans, 1);
         }
 
         [TestMethod]
-        public void TestGetCurrentLength2()
+        public void TestGetCurrentLength_Input4and10_OutputLength()
         {
-            Rectangle rectangle = new Rectangle(4, 10);
+            int length = 4;
+            int width = 10;
+
+            Rectangle rectangle = new Rectangle(length,width);
 
             Assert.AreEqual(rectangle.GetCurrentLength(), 4);
         }
 
         [TestMethod]
-        public void TestGetCurrentLength3()
+        public void TestGetCurrentLength_Input10_OutputNewLength()
         {
             Rectangle rectangle = new Rectangle();
             rectangle.SetNewLength(10);
@@ -33,7 +42,7 @@ namespace Assignment02.Tests
         }
 
         [TestMethod]
-        public void TestSetNewLength1()
+        public void TestSetNewLength_Input3_OutputSetNewLegth()
         {
             Rectangle rectangle = new Rectangle();
             rectangle.SetNewLength(3);
@@ -41,7 +50,7 @@ namespace Assignment02.Tests
         }
 
         [TestMethod]
-        public void TestSetNewLength2()
+        public void TestSetNewLength_Input18_OutputSetNewLength()
         {
             Rectangle rectangle = new Rectangle();
             rectangle.SetNewLength(18);
@@ -49,17 +58,17 @@ namespace Assignment02.Tests
         }
 
         [TestMethod]
-        public void TestSetNewLength3()
+        public void TestSetNewLength_InputNegativeNumbers_OutputInvalidLength()
         {
             Rectangle rectangle = new Rectangle();
-            rectangle.SetNewLength(10000);
-            Assert.AreEqual(rectangle.GetCurrentLength(), 10000);
+            rectangle.SetNewLength(-1);
+            Assert.AreEqual(rectangle.GetCurrentLength(), -1);
         }
 
 
 
         [TestMethod]
-        public void TestGetCurrentWidth1()
+        public void TestGetCurrentWidth_Returns1()
         {
             Rectangle rectangle = new Rectangle();
 
@@ -67,7 +76,7 @@ namespace Assignment02.Tests
         }
 
         [TestMethod]
-        public void TestGetCurrentWidth2()
+        public void TestGetCurrentWidth_Input4And10_OutputLength4()
         {
             Rectangle rectangle = new Rectangle(4, 10);
 
@@ -75,7 +84,7 @@ namespace Assignment02.Tests
         }
 
         [TestMethod]
-        public void TestGetCurrentWidth3()
+        public void TestGetCurrentWidth_Input10_OutputSetNewWidth()
         {
             Rectangle rectangle = new Rectangle();
             rectangle.SetNewWidth(10);
@@ -83,7 +92,7 @@ namespace Assignment02.Tests
         }
 
         [TestMethod]
-        public void TestSetNewWidth1()
+        public void TestSetNewWidth_Input3_OutputSetNewWidth()
         {
             Rectangle rectangle = new Rectangle();
             rectangle.SetNewWidth(3);
@@ -91,7 +100,7 @@ namespace Assignment02.Tests
         }
 
         [TestMethod]
-        public void TestSetNewWidth2()
+        public void TestSetNewWidth_Input18_OutputSetsNewWidth()
         {
             Rectangle rectangle = new Rectangle();
             rectangle.SetNewWidth(18);
@@ -99,16 +108,16 @@ namespace Assignment02.Tests
         }
 
         [TestMethod]
-        public void TestSetNewWidth3()
+        public void TestSetNewWidth_InputNegativeNumber_OutputInvalidWidth()
         {
             Rectangle rectangle = new Rectangle();
-            rectangle.SetNewWidth(10000);
-            Assert.AreEqual(rectangle.GetCurrentWidth(), 10000);
+            rectangle.SetNewWidth(-1);
+            Assert.AreEqual(rectangle.GetCurrentWidth(), -1);
         }
 
 
         [TestMethod]
-        public void TestGetPerimeter1()
+        public void TestGetPerimeter_InputDefaultLengthAndWidth_OutputCalculatesPerimeter()
         {
             Rectangle rectangle = new Rectangle();
 
@@ -116,7 +125,7 @@ namespace Assignment02.Tests
         }
 
         [TestMethod]
-        public void TestGetPerimeter2()
+        public void TestGetPerimeter_InputLengthAndWidth_OutputPerimeter16()
         {
             Rectangle rectangle = new Rectangle(3, 5);
 
@@ -124,7 +133,7 @@ namespace Assignment02.Tests
         }
 
         [TestMethod]
-        public void TestGetPerimeter3()
+        public void TestGetPerimeter_InputSetNewLenghtAndWidth_OuputPerimeter60()
         {
             Rectangle rectangle = new Rectangle();
             rectangle.SetNewLength(20);
@@ -134,23 +143,27 @@ namespace Assignment02.Tests
 
 
         [TestMethod]
-        public void TestGetArea1()
+        public void TestGetArea_InputDefaultLengthAndWidth_OutputCalculatesArea()
         {
+	    
             Rectangle rectangle = new Rectangle();
 
             Assert.AreEqual(rectangle.GetArea(), 1);
         }
 
         [TestMethod]
-        public void TestGetArea2()
+        public void TestGetArea_InputLengthAndWidth_OutputCalculatesArea15()
         {
-            Rectangle rectangle = new Rectangle(3, 5);
+            int length=3;
+	    int width=5;
+
+	    Rectangle rectangle = new Rectangle(length, width);
 
             Assert.AreEqual(rectangle.GetArea(), 15);
         }
 
         [TestMethod]
-        public void TestGetArea3()
+        public void TestGetArea_InputSetNewLengthAndWidth_OutputCalculatesArea200()
         {
             Rectangle rectangle = new Rectangle();
             rectangle.SetNewLength(20);
