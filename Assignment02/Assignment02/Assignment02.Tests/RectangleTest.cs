@@ -6,7 +6,7 @@ namespace Assignment02.Tests
     [TestClass]
     public class RectangleTest
     {
-        
+
 
         [TestMethod]
         public void TestGetCurrentLength_Returns1()
@@ -28,7 +28,7 @@ namespace Assignment02.Tests
             int length = 4;
             int width = 10;
 
-            Rectangle rectangle = new Rectangle(length,width);
+            Rectangle rectangle = new Rectangle(length, width);
 
             Assert.AreEqual(rectangle.GetCurrentLength(), 4);
         }
@@ -145,7 +145,7 @@ namespace Assignment02.Tests
         [TestMethod]
         public void TestGetArea_InputDefaultLengthAndWidth_OutputCalculatesArea()
         {
-	    
+
             Rectangle rectangle = new Rectangle();
 
             Assert.AreEqual(rectangle.GetArea(), 1);
@@ -154,10 +154,10 @@ namespace Assignment02.Tests
         [TestMethod]
         public void TestGetArea_InputLengthAndWidth_OutputCalculatesArea15()
         {
-            int length=3;
-	    int width=5;
+            int length = 3;
+            int width = 5;
 
-	    Rectangle rectangle = new Rectangle(length, width);
+            Rectangle rectangle = new Rectangle(length, width);
 
             Assert.AreEqual(rectangle.GetArea(), 15);
         }
